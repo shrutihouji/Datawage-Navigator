@@ -1,0 +1,10 @@
+gunicorn
+dash
+dash_bootstrap_components
+Flask
+Jinja2
+mysql-connector-python
+pandas
+PyMySQL
+plotly
+SQLAlchemy

@@ -1,0 +1,25 @@
+/* assets/styles.css */
+.kpi-card {
+    background-color: #3498db; /* Blue background color */
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.kpi-card-header {
+    text-align: center; /* Center-align header text */
+}
+
+.kpi-card-body {
+    border: 2px solid #ddd; /* Border color */
+    padding: 15px; /* Padding for content */
+}
+
+.kpi-box {
+    border: 1px solid #ddd;  /* Add border */
+    padding: 15px;  /* Adjust padding */
+    margin: 10px;  /* Adjust margin */
+    border-radius: 5px;  /* Add border radius for rounded corners */
+    background-color: #f9f9f9;  /* Set background color */
+    text-align: center;  /* Center-align text */
+}

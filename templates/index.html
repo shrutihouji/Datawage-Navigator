@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Data</title>
+</head>
+<body>
+    <h2>Add Job Information</h2>
+    <form action="/add_job_info" method="post">
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary" required><br>
+
+        <label for="salary_in_usd">Salary in USD:</label>
+        <input type="text" id="salary_in_usd" name="salary_in_usd" required><br>
+
+        <label for="currency_code">Currency Code:</label>
+        <select id="currency_code" name="currency_code" required>
+            <option value="none" selected disabled hidden>Select an Option</option> 
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+           
+        </select><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br>
+
+        <label for="company_size">Company Size:</label>
+        <select id="company_size" name="company_size" required>
+            <option value="none" selected disabled hidden>Select an Option</option> 
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+        </select><br>
+
+
+        <label for="work_year">Work Year:</label>
+        <input type="text" id="work_year" name="work_year" required><br>
+
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" required><br>
+
+        <label for="employment_type">Employment Type:</label>
+        <select id="employment_type" name="employment_type" required>
+            <option value="none" selected disabled hidden>Select an Option</option> 
+            <option value="FT">FT</option>
+            <option value="PT">PT</option>
+            <option value="CT">CT</option>
+            <option value="FL">FL</option>
+           
+        </select><br>
+
+        <label for="experience_level">Experience Level(EN,MI,SE,EX):</label>
+        <input type="text" id="experience_level" name="experience_level" required><br>
+
+        <label for="employee_residence">Employee Residence:</label>
+        <input type="text" id="employee_residence" name="employee_residence" required><br>
+
+        <label for="remote_ratio">Remote Ratio:</label>
+        <select id="remote_ratio" name="remote_ratio" required>
+            <option value="none" selected disabled hidden>Select an Option</option> 
+            <option value="0">0</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select><br>
+        <input type="submit" value="Add Job Information">
+    </form>
+
+
+</body>
+</html>
